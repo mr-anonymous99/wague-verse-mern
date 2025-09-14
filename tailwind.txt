@@ -1,0 +1,11 @@
+Tailwind Brother :
+	//for code we  got to d:devastra/wague-mern
+
+	-first we need to install the process from the official website
+	-for sending our custom values we use the  value in the square brackets []
+
+FLEX :
+	-flex -> display :flex
+	-flex-col -> flex-direction:column
+	-items-center -> align-items:center
+	
