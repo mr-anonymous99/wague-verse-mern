@@ -5,7 +5,7 @@ const SignUp = () => {
     <div className='flex flex-col  items-center mt-10 gap-5'>
         <h1 className="text-2xl text-blue-600 font-bold">Join Wague-verse</h1>
         <p className='text-gray-600 text-center font-semibold'>Create your account and  <br/> start your blogging journey</p>
-        <form className="flex flex-col border-1 border-black w-1/3 py-7 items-center gap-5 rounded-xl">
+        <form className="flex flex-col shadow-2xl shadow-black w-1/3 py-7 items-center gap-5 rounded-xl bg-white">
             <div className="w-[90%]">
                 <h1 className="text-md text-gray-700 font-semibold">Full Name</h1>
                 <input type="text" name="name" id="1" placeholder='Enter your full name' className='border-1 w-full py-4 px-2 rounded-xl focus:outline-none focus:border-purple-500 '/>
