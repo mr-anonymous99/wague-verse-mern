@@ -5,7 +5,7 @@ const Blog = ({ b }) => {
 
     return (
         <div className=' border-[0.5px] border-gray-500 rounded-xl flex flex-col gap-2 justify-center relative'>
-            <img src={b.img} alt="" className=' rounded-t-xl hover:scale-110  overflow-hidden' />
+            <img src={b.img} alt="" className=' rounded-t-xl ' />
             <p className='bg-blue-500 px-2 rounded-xl absolute top-4 left-3'>{b.trending}</p>
             <p className='absolute top-4 right-3 rounded-[50%] bg-gray-300 p-1'><Bookmark size={20}/></p>
             <div className='py-1 px-2 flex flex-col gap-3'>
