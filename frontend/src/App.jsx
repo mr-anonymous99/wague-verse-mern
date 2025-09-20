@@ -6,18 +6,15 @@ import SignUp from './SignUp.jsx'
 import SignIn from './SignIn.jsx'
 import Home from './Home.jsx'
 import Blog from './Blog.jsx'
-
+import { Routes, Route } from 'react-router-dom'
 function App() {
-
-
   return (
-    <div>
-      <NavBar/>
-      {/* <SignUp/> */}
-      {/* <SignIn/> */}
-      <Home />  
-      {/* <ProductCard/> */}
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/Signin' element={<SignIn />} />
+      <Route path='/Signup' element={<SignUp />} />
+      
+    </Routes>
   )
 }
 
