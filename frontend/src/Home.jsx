@@ -82,11 +82,11 @@ const Home = () => {
     return (
         <div className='min-w-screen flex flex-col items-center justify-center'>
             <NavBar/>
-            <div className='flex flex-col items-center justify-center gap-4 '>
-                <h1 className='font-bold text-3xl mt-7'>Welcome to Wague-verse</h1>
-                <p className='text-gray-500'>Discover amazing stories ,insights and ideas from our communinty of <br />writers. <Link to="/signin" className='text-blue-500'> Sign in</Link> to create your own posts and save you favourites</p>
+            <div className='flex flex-col items-center md:justify-center gap-4 '>
+                <h1 className='font-bold  text-sm md:text-3xl mt-7'>Welcome to Wague-verse</h1>
+                <p className='text-gray-500 md:items-center'>Discover amazing stories ,insights and ideas from our communinty of <br />writers. <Link to="/signin" className='text-blue-500'> Sign in</Link> to create your own posts and save you favourites</p>
             </div>
-            <div className='grid grid-cols-3 mt-6 gap-3 px-14 '>
+            <div className='grid  grid-cols-1 md:grid-cols-3 mt-6 gap-3 px-14 '>
                     {blogs.map((b) => (
                         <Blog b={b} key={b.id}/>
                     ))}

@@ -44,3 +44,9 @@ HOVER :
 
 CURSOR :
     cursor-pointer ->cursor :pointer
+
+
+RESPONSIVE-DESIGN :
+    sm: for mobiles
+    md: for tabs 
+    lg: for laptops
